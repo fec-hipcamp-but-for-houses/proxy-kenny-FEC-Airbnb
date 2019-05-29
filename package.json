@@ -1,25 +1,60 @@
 {
   "name": "FEC-Airbnb-Proxy",
   "version": "1.0.0",
-  "description": "",
+  "description": "Proxy",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "react-dev": "webpack -d --watch"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vincen7tran/FEC-Airbnb-Proxy.git"
+    "url": ""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/vincen7tran/FEC-Airbnb-Proxy/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/vincen7tran/FEC-Airbnb-Proxy#readme",
+  "homepage": "",
   "dependencies": {
-    "express": "^4.17.1",
-    "request": "^2.88.0"
+    "axios": "^0.18.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "moment": "^2.24.0",
+    "mongoose": "^5.5.9",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/runtime": "^7.4.5",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.8.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^2.1.1",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.13.1",
+    "enzyme-to-json": "^3.3.5",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.13.0",
+    "faker": "^4.1.0",
+    "jest": "^24.8.0",
+    "puppeteer": "^1.16.0",
+    "style-loader": "^0.23.1",
+    "supertest": "^4.0.2",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2"
   }
 }

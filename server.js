@@ -10,7 +10,7 @@ app.use(express.static(publicDir));
 
 app.get('/listing', (req, res) => {
   console.log('get listing');
-  request('http://localhost:3001/listing').pipe(res);
+  request('http://localhost:3003/listing').pipe(res);
   console.log('got listing');
 });
 
@@ -28,7 +28,7 @@ app.get('/reviews', (req, res) => {
 
 app.get('/photoGallery', (req, res) => {
   console.log('get photos');
-  request('http://localhost:3005/photoGallery').pipe(res);
+  request('http://localhost:3001/photoGallery').pipe(res);
   console.log('got photos');
 });
 
