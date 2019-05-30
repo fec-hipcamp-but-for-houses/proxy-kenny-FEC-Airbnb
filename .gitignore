@@ -1,2 +1,11 @@
+#Node_Modules
+node_modules
+
+#Modules
+Modules
+
+#bundle
+bundle.js
+
+#package-lock.json
 package-lock.json
-node_modules/
